@@ -22,7 +22,7 @@ Bu yöntem, uzantının henüz Chrome Web Mağazası'na yüklenmediği veya beta
 7. Uzantı başarıyla yüklenecek ve tarayıcınızın sağ üst köşesinde simgesi görünecektir
 
 ### Yöntem 3: CRX Dosyasından Kurulum
-1. Bu deponun [Releases](https://github.com/KULLANICIADINIZ/NetflixTogether/releases) sayfasından en son CRX dosyasını indirin
+1. Bu deponun [Releases](https://github.com/TMBilalTM/netflix-together/releases) sayfasından en son CRX dosyasını indirin
 2. Chrome tarayıcınızda `chrome://extensions` adresine gidin
 3. Sağ üst köşedeki "Geliştirici modu" anahtarını etkinleştirin
 4. İndirdiğiniz CRX dosyasını Chrome penceresine sürükleyip bırakın
