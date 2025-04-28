@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>NetflixTogether</title>
+  <style>
+    body {
+      width: 280px;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      background-color: #141414;
+      color: #fff;
+    }
+    
+    h1 {
+      color: #e50914;
+      font-size: 18px;
+      margin-top: 0;
+    }
+    
+    p {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    
+    .section {
+      margin-bottom: 15px;
+    }
+    
+    .btn {
+      background-color: #e50914;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    
+    .btn:hover {
+      background-color: #f6121d;
+    }
+    
+    .option-row {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    
+    .option-row .btn {
+      width: 48%;
+    }
+  </style>
+</head>
+<body>
+  <h1>NetflixTogether: Sync & Chat</h1>
+  
+  <div class="section">
+    <p>Netflix filmlerini ve dizilerini arkadaşlarınızla senkronize izleyin ve sohbet edin!</p>
+  </div>
+  
+  <div class="section">
+    <p><strong>Nasıl Kullanılır:</strong></p>
+    <p>1. Netflix'te bir film/dizi açın.<br>
+       2. "Oda Oluştur" düğmesine tıklayın.<br>
+       3. Oluşan oda linkini arkadaşınızla paylaşın.<br>
+       4. Arkadaşınız linke tıklayarak odaya katılabilir.</p>
+  </div>
+  
+  <div class="section">
+    <button id="open-netflix-btn" class="btn">Netflix'i Aç</button>
+    <div class="option-row">
+      <button id="browse-netflix-btn" class="btn">İçerik Keşfet</button>
+      <button id="continue-watching-btn" class="btn">İzlemeye Devam Et</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
